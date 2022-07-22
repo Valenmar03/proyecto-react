@@ -1,3 +1,4 @@
+import CartWidget from "./CartWidget"
 import Nav from "./Nav"
 
 //Para pasar props que no sean string se usan {}
@@ -5,7 +6,7 @@ import Nav from "./Nav"
 const Header = () => {
     return (
         <header id="header">
-            <h1>Ecorganico</h1>
+            <CartWidget/>
             <Nav type="header" />
         </header>
     )

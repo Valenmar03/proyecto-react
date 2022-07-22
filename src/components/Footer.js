@@ -1,3 +1,4 @@
+import CartWidget from "./CartWidget"
 import Nav from "./Nav"
 
 
@@ -5,7 +6,7 @@ const Footer = () => {
     return(
         <footer id="footer">
             <a href="#">Contacto</a>
-            <img src="" alt="Logo" />
+            <CartWidget/>
             <Nav type="footer"/>
         </footer>
     )
