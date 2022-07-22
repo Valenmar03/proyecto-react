@@ -7,7 +7,7 @@ const App = () => {
     return (
     <>
         <Header/>
-        <Main test={true}/>
+        <Main nombre="Valentin" edad="18" nacionalidad="Argentina"/>
         <Footer/>
     </>
 )}
